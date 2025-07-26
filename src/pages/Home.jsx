@@ -46,7 +46,7 @@ export default function Home() {
           {[0, 1, 2].map((index) => (
             <div
               key={index}
-              className={`w-[230px] h-[230px] border border-blue-700 border-[5px] relative flex items-center justify-center cursor-pointer ${
+              className={`w-[200px] h-[200px] border border-blue-700 border-[5px] relative flex items-center justify-center cursor-pointer ${
                 !images[index] ? "bg-gray-100" : ""
               }`}
               onDragOver={handleDragOver}
